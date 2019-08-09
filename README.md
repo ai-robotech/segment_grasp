@@ -9,6 +9,7 @@ This demo can segmengt the point cloud, remove the background and compute the gr
 > 程序主要是使用pcl中实现的方法来对点云图像进行处理。
 ## 环境
 > pcl-1.7.2
+
 > ROS Kinetic
 ## pcl下载安装
 > 下载pcl-1.7.2。解压后再文件路径下
@@ -42,11 +43,11 @@ rosrun geograsp cloud_processor _topic:="/kinect2/qhd/points"
 
 
 ##效果
-> Kinect所得到的点云图像如下
+> Kinect所得到的点云图像如下:
 
 <img src="/1.jpg" width="445"> 
 
-> 通过pcl中的分类方式，我们将点云通过RANSAC分为，平面和非平面，并将两者存在不同的点云数据中。只显示物体点云，效果如下
+> 通过pcl中的分类方式，我们将点云通过RANSAC分为，平面和非平面，并将两者存在不同的点云数据中。只显示物体点云，效果如下:
 
 <img src="/2.jpg" width="445">
 
