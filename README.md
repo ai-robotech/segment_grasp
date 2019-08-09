@@ -26,7 +26,7 @@ This demo can segmengt the point cloud, remove the background and compute the gr
 > 安装后进入工作空间的src，下载代码 
 
 ```
-git clone https://github.com/yayaneath/GeoGrasp.git
+git clone ttps://github.com/baiyuxas/segment_grasp.git
 ```
 ## 编译运行
 > 编译完成后执行（打开Kinect相机的代码，也可以是其他的命令，能发布点云信息到指定话题即可）
