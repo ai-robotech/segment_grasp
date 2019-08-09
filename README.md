@@ -4,7 +4,7 @@ This demo can segmengt the point cloud, remove the background and compute the gr
 
 ## 此程序可以完成，去除点云的平面背景并对物体进行分类，再进行抓取规划
 
-> 主要参考了 https://github.com/yayaneath/GeoGrasp，并在其基础上进行了修改
+> 主要参考了 https://github.com/yayaneath/GeoGrasp ,并在其基础上进行了修改
 >
 > 程序主要是使用pcl中实现的方法来对点云图像进行处理。
 ## 环境
