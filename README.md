@@ -30,7 +30,7 @@ roslaunch kinect2_bridge kinect2_bridge.launch
 rosrun geograsp cloud_processor _topic:="/kinect2/qhd/points"
 ```
 > cloud_processor.cpp文件可以对监听到的点云信息进行处理，并将结果可视化。
-##效果
+## 效果
 > Kinect所得到的点云图像如下:
 <img src="/1.jpg" width="445"> 
 > 通过pcl中的分类方式，我们将点云通过RANSAC分为，平面和非平面，并将两者存在不同的点云数据中。只显示物体点云，效果如下:
