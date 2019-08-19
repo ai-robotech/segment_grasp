@@ -37,3 +37,4 @@ rosrun geograsp cloud_processor _topic:="/kinect2/qhd/points"
 <img src="/2.jpg" width="445">
 > 由于kinect限制，对于表面会有一定反光的物体，生成点云的效果并不佳。我们再对物体进行分类，分类后使用Geograsp使用的方法对每个物体找出最优的抓取点。分类所使用的方法是欧几里得聚类。是通过距离来区分物体。缺点是对于相连的物体两个物体会将其认为是一个物体。且对点云的精度有要求。分类的效果如下
 <img src="/3.jpg" width="445">
+
