@@ -15,12 +15,10 @@ This demo can segmengt the point cloud, remove the background and compute the gr
 > 下载pcl-1.7.2。解压后再文件路径下
 
 ```
-
     mkdir build
     cd build 
     cmake ..
-    make -j4
-    
+    make -j4  
 ```
 
 > 安装后进入工作空间的src，下载代码 
